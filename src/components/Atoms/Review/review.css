@@ -1,0 +1,36 @@
+.review {
+  background: #f5f5f5;
+  border-radius: 2px;
+  padding: 24px;
+  margin-right: 24px;
+  max-width: 512px;
+}
+.review_title {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 24px;
+}
+.review_title_left {
+  display: flex;
+}
+.review_img > img {
+  width: 52px;
+  height: 52px;
+  margin-right: 20px;
+}
+.review_name {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+}
+.review_date {
+  color: #8a8a8a;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+}
+.review_content {
+  font-size: 14px;
+}

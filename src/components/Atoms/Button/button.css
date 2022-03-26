@@ -1,0 +1,16 @@
+div > .btn {
+  padding: 17px 28px;
+  color: #fff;
+  background: #585cc6;
+  border: none;
+}
+.btn:hover {
+  background: #696dc8;
+  cursor: pointer;
+}
+.btn:active {
+  background: #797ddf;
+}
+.btn:disabled {
+  background: #8a8a8a;
+}

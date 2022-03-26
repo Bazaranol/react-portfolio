@@ -1,0 +1,26 @@
+.footer {
+  background: #fff;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.footer_creators {
+  margin: 24px 80px;
+  color: #8a8a8a;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+}
+.footer_links {
+  color: #585cc6;
+  margin: 24px 80px;
+}
+.footer_icon {
+  color: #585cc6;
+  margin-right: 20px;
+}
+.footer_icon:hover {
+  color: #797ddf;
+  cursor: pointer;
+}

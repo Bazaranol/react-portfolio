@@ -1,0 +1,12 @@
+.portfolio {
+  display: flex;
+  margin-bottom: 160px;
+  position: relative;
+}
+.portfolio_image {
+  position: relative;
+  top: 40px;
+  max-height: 382px;
+  max-width: 519px;
+  margin-left: 80px;
+}
