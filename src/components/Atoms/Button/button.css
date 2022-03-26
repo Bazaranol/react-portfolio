@@ -3,6 +3,8 @@ div > .btn {
   color: #fff;
   background: #585cc6;
   border: none;
+  /* font-size: 18px; */
+  font-family: "Gilroy";
 }
 .btn:hover {
   background: #696dc8;

@@ -2,30 +2,30 @@ import React from "react";
 import "./profile.css";
 import { FaPaw } from "react-icons/fa";
 
-export function Profile() {
+export function Profile({ props }) {
   return (
     <div className="profile_container">
       <div className="profile_top">
-        <div className="profile_top_name">Яна Валиева</div>
-        <div className="profile_top_date">08.10.1999</div>
+        <h3 className="profile_top_name">{props.name}</h3>
+        <div className="profile_top_date">{props.date}</div>
       </div>
       <div className="profile_middle">
         <div className="profile_middle_top">
           <div>
-            <b>Город:</b>Томск
+            <b>Город:</b>
+            {props.city}
           </div>
           <div>
-            <b>Пол:</b>Женщина
+            <b>Пол:</b>
+            {props.sex}
           </div>
           <div>
-            <b>Возраст:</b>22
+            <b>Возраст:</b>
+            {props.age}
           </div>
         </div>
         <div className="profile_middle_center">
-          <b>О себе:</b> Всем привет! Меня зовут Яна, мне 22 года, я студент.
-          Учусь на программиста, но хочу стать продуктовым аналитиком. Недавно,
-          например, я начала проходить курс на известной платформе, который
-          поможет мне устроиться на работу моей мечты!
+          <b>О себе:</b> {props.content}
         </div>
         <div className="profile_middle_bottom">
           <b>BTW:</b>

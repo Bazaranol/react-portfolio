@@ -46,7 +46,7 @@ export function ReviewsWindow() {
           <Button onClick={() => setShowModal(true)}>+ Добавить отзыв </Button>
           <Modal show={showModal}>
             <ModalHeader>
-              <h2>Отзыв</h2>
+              <h4>Отзыв</h4>
               <div className="modal_close" onClick={() => setShowModal(false)}>
                 &times;
               </div>

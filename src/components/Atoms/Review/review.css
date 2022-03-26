@@ -19,12 +19,16 @@
   margin-right: 20px;
 }
 .review_name {
+  font-family: "Factor A";
   font-style: normal;
   font-weight: 500;
   font-size: 24px;
   line-height: 28px;
+  display: flex;
+  align-items: center;
 }
 .review_date {
+  font-family: "Factor A";
   color: #8a8a8a;
   font-style: normal;
   font-weight: 400;

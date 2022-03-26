@@ -2,7 +2,7 @@ import React from "react";
 import { Button } from "../../Atoms/Button/Button";
 import "./header.css";
 
-export function Header() {
+export function Header(props) {
   return (
     <div className="header">
       <div className="profile">
@@ -10,7 +10,7 @@ export function Header() {
           <img src="https://i0.wp.com/newdoorfiji.com/wp-content/uploads/2018/03/profile-img-1.jpg?ssl=1" />
         </div>
         <div className="profile_name">
-          <div>Name Surname</div>
+          <h5>{props.name}</h5>
         </div>
       </div>
       <div className="logo">

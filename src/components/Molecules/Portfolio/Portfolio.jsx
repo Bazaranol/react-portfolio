@@ -1,7 +1,8 @@
 import React from "react";
 import { Profile } from "../Profile/Profile";
 import "./portfolio.css";
-export function Portfolio() {
+export function Portfolio({ props }) {
+  console.log(props);
   return (
     <div className="portfolio">
       <div className="portfolio_image">
@@ -10,7 +11,7 @@ export function Portfolio() {
           alt=""
         />
       </div>
-      <Profile />
+      <Profile props={props} />
     </div>
   );
 }

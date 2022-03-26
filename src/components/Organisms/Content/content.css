@@ -1,3 +1,13 @@
+@font-face {
+  font-family: "Factor A";
+  src: url("../../../fonts/FactorAMedium-Regular.eot");
+  src: local("Factor A Medium Regular"), local("FactorAMedium-Regular"),
+    url("../../../fonts/FactorAMedium-Regular.woff2") format("woff2"),
+    url("../../../fonts/FactorAMedium-Regular.woff") format("woff"),
+    url("../../../fonts/FactorAMedium-Regular.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
 .app .container {
   width: 1000px;
   padding: 0 20px;
@@ -9,38 +19,11 @@
   color: white;
 }
 .about > h1 {
+  font-family: "Factor A";
   font-size: 124px;
   margin: 85px;
 }
-
-/* .portfolio {
-  padding: 40px 0;
-} */
-
 .container {
   display: flex;
   flex-wrap: wrap;
 }
-
-/* .portfolio-item {
-  box-sizing: border-box;
-  flex-basis: 33.33%;
-  padding: 10px;
-  text-decoration: none;
-  color: inherit;
-}
-
-.portfolio-item {
-  display: block;
-}
-
-.portfolio-item img {
-  max-width: 100%;
-}
-
-.portfolio-item__title {
-  margin: 10px 0;
-  text-align: center;
-  font-size: 16px;
-  font-weight: bold;
-} */

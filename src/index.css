@@ -1,3 +1,17 @@
+@import "./fonts/GilroyFonts.css";
+@import "./fonts/FactorFonts.css";
+@font-face {
+  font-family: "Factor A";
+  src: url(./fonts/FactorAMedium-Regular.ttf) format("truetype");
+  font-weight: 500;
+  font-size: normal;
+}
+@font-face {
+  font-family: "Gilroy";
+  src: url(./fonts/Gilroy-Bold.ttf) format("truetype");
+  font-weight: 700;
+  font-size: normal;
+}
 * {
   margin: 0;
 }
@@ -6,10 +20,32 @@ body {
   margin: 0;
   height: 100%;
 }
+h1 {
+  font-family: "Factor A";
+  font: 500 124px Factor A;
+}
+h2 {
+  font-family: "Factor A";
+  font: 500 68px Factor A;
+}
+h3 {
+  font-family: "Factor A";
+  font: 700 32px Factor A;
+}
+h4 {
+  font-family: "Factor A";
+  font: 500 24px Factor A;
+}
+h5 {
+  font-family: "Factor A";
+  font: 700 18px Factor A;
+}
 body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+  /* font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
+    sans-serif; */
+  font-family: "Gilroy";
+  font: 700 Gilroy;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
